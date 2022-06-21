@@ -179,6 +179,7 @@ var deleteTask = function(taskId) {
 // Create a new task
 formEl.addEventListener("submit", taskFormHandler);
 
+
 // for edit and delete buttons
 pageContentEl.addEventListener("click", taskButtonHandler);
 
